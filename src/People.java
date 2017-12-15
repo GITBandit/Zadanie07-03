@@ -27,4 +27,8 @@ public class People {
     public void showInfo(){
         System.out.print("Imię : " + firstName + ", Nazwisko : " + lastName);
     }
+
+    public void setSalary(int salary){
+
+    }
 }

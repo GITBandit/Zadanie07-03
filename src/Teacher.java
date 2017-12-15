@@ -13,7 +13,9 @@ public class Teacher extends People {
         return salary;
     }
 
+    @Override
     public void setSalary(int salary) {
+        super.setSalary(salary);
         this.salary = salary;
     }
 
